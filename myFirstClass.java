@@ -22,6 +22,7 @@ class Human{
         this.name = name;
         this.age = age;
         countPeople++;
+	//конец
     }
 
     public void setName(String name){this.name = name;}
