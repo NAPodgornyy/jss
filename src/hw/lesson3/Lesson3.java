@@ -35,7 +35,7 @@ public class Lesson3 {
         //reverseStr(src);
 
         //Задание 5
-        myiterator(src);
+        //myiterator(src);
 
         //Задание 6
         //returnStrByNumber(src);
@@ -55,22 +55,12 @@ public class Lesson3 {
         for(int i = 0; i< strlist.size(); i++){
             arr[i] = strlist.get(i);
         }
-/*
-        for (String el: arr) {
-            System.out.println(el);
-        }
-*/
 
         MyList<String> list = new MyList(arr);
         Iterator<String> iter = list.iterator();
         while(iter.hasNext()){
             System.out.println(iter.next());
         }
-        /*
-        while (iter.iterator().hasNext()) {
-            System.out.println(iter.iterator().next());
-        }
-        */
     }
 
     // (Задание 6) Выведите на экран строки, номера которых задаются пользователем в произвольном порядке.
